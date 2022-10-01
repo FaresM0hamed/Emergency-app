@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Egypt Emergency </string>
+    <string name="Ambulance">Ambulance</string>
+    <string name="Police">Police</string>
+    <string name="Fire_Station">Fire Station</string>
+    <string name="gas">GAS Emergency</string>
+    <string name="electric">Electricity Emergency</string>
+    <string name="traffic">Traffic Emergency</string>
+    <string name="hacker">Internet Investigations</string>
+    <string name="water">Water Emergency</string>
+    <string name="Baby">Baby Helpline</string>
+    <string name="contact_us">Contact us</string>
+    <string name="Rate_us">Rate us</string>
+    <string name="Share">Share</string>
+    <string name="info">Who knows the emergency numbers? And how many times we tried to remember it and eventually forget it, so we made an application that collects the important emergency numbers in the most difficult situations If you see that there are numbers we need to add, we will be happy to contact us</string>
+    <string name="exit">press back again to exit</string>
+        <string name="share">Will be add soon</string>
+    <string name="rate">Will be add soon</string>
+    <string name="version">version 1.1</string>
+    <string name="information">Information</string>
+    <string name="fares">fares</string>
+
+</resources>

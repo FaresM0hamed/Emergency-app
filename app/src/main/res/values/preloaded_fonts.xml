@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/tajawal_bold</item>
+        <item>@font/tajawal_extralight</item>
+        <item>@font/tajawal_medium</item>
+    </array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">طوارئ مصر </string>
+    <string name="Ambulance">الإسعاف</string>
+    <string name="Police">الشرطة</string>
+    <string name="Fire_Station">مركزالإطفاء</string>
+    <string name="gas">طوارئ الغاز</string>
+    <string name="electric">طوارئ الكهرباء</string>
+    <string name="traffic">طوارئ المرور</string>
+    <string name="hacker">مباحث الإنترنت</string>
+    <string name="water">أعطال المياه</string>
+    <string name="Baby">نجدة الطفل</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="Rate_us">قيمنا</string>
+    <string name="Share">شارك التطبيق</string>
+    <string name="info">مين مننا حافظ أرقام الطوارئ؟ وكام مرة حاولنا نحفظها وفي الآخر بتتنسي،عشان كده عملنا برنامج بيجمع أهم الأرقام اللي ممكن تحتاجها في أصعب المواقف \n(لا قدر الله)\n لو شايف إن فيه رقم لازم يبقى موجود أكيد هانبقى سعداء لو اتواصلت معانا.</string>
+    <string name="exit">إضغط مرة أخرى للخروج</string>
+    <string name="share">سيتم إضافتها قريبا</string>
+    <string name="rate">سيتم إضافتها قريبا</string>
+    <string name="version">version 1.1</string>
+</resources>
