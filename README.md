@@ -2,7 +2,7 @@
 this app contains most popular emergency numbers in egypt ,as soon as you click on item The application diverts you to the phone to call the number
 used in this app:
 Recycler view -explicit & implicit intent- permissions - Solid Princeples
-<img src="![screen1](https://user-images.githubusercontent.com/114820994/194713510-90b92301-5112-4094-a01d-3887e12b54cc.jpg)
-" width="150" height="280">
- 
+
+
+<img src="https://github.com/FaresM0hamed/Emergency-app/blob/master/screen1.jpg" width=20% height=20%> <img src="https://github.com/FaresM0hamed/Emergency-app/blob/master/screen2.jpg" width=20% height=20%> <img src="https://github.com/FaresM0hamed/Emergency-app/blob/master/screen3.jpg" width=20% height=20%>
 
