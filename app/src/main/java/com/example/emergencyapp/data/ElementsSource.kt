@@ -16,7 +16,7 @@ class ElementsSource {
         elements.add(Elements(context.getString(R.string.gas), R.drawable.gas,"129"))
         elements.add(Elements(context.getString(R.string.water), R.drawable.water,"125"))
         elements.add(Elements(context.getString(R.string.Baby), R.drawable.baby,"16000"))
-        elements.add(Elements(context.getString(R.string.traffic), R.drawable.crashing,"123"))
+        elements.add(Elements(context.getString(R.string.traffic), R.drawable.crashing,"128"))
         elements.add(Elements(context.getString(R.string.hacker), R.drawable.hacker,"108"))
         return elements
     }

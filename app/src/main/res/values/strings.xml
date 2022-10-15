@@ -17,7 +17,14 @@
         <string name="share">Will be add soon</string>
     <string name="rate">Will be add soon</string>
     <string name="version">version 1.1</string>
-    <string name="information">Information</string>
-    <string name="fares">fares</string>
+    <string name="call">Call</string>
+    <string name="are_you_sure_to_make_this_call">Are you sure to make this call</string>
+    <string name="continuee">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="core">Core fundamental are based on these permissions</string>
+    <string name="youNeed">You need to allow necessary permissions in Settings manually</string>
+    <string name="permissionDenied"> permission denied</string>
+    <string name="permissionGranted"> permission granted</string>
+    <string name="information">information</string>
 
 </resources>

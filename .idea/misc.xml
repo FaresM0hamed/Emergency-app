@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/btn_shape.xml" value="0.175" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/card_back.xml" value="0.175" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/cardview_ripple.xml" value="0.203" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/ic_group_2.xml" value="0.133" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/ic_path_2.xml" value="0.175" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/drawable/test.xml" value="0.218" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout-v28/emergency_item.xml" value="0.2677083333333333" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/activity_information_page.xml" value="0.33" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/emergency_item.xml" value="0.25" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/dialog.xml" value="0.26461538461538464" />
+        <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/emergency_item.xml" value="0.26875" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/layout/information.xml" value="0.25" />
         <entry key="..\:/Android_studio_projects/Emergency_App/app/src/main/res/menu/main.xml" value="0.25" />
       </map>

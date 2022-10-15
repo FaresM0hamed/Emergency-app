@@ -1,5 +1,8 @@
 package com.example.emergencyapp.ui
 
+import android.Manifest
+import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,11 +14,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.emergencyapp.R
 import com.example.emergencyapp.adapter.EmergencyAdapter
 import com.example.emergencyapp.data.ElementsSource
+import com.permissionx.guolindev.PermissionX
+import org.intellij.lang.annotations.Language
+import java.util.*
+import java.util.Locale.ENGLISH
 
 
 var backPressedTime = 0L
-private lateinit var permissionLauncher:ActivityResultLauncher<Array<String>>
-private var isCallPermissionGranted=false
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         val list = ElementsSource().obtain(this)
         val adapter = EmergencyAdapter(this, list)
         rv.adapter = adapter
+
 
     }
 
@@ -53,3 +60,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
+
+
+
+

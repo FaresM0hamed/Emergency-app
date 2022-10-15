@@ -45,6 +45,7 @@ dependencies {
     //ssp
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
     //tasty toast
+    implementation 'com.guolindev.permissionx:permissionx:1.7.1'
 
 
 }

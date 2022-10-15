@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/parent"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
-    android:layout_margin="@dimen/_16sdp"
+    android:layout_height="@dimen/_90sdp"
+    android:layout_margin="@dimen/_13sdp"
     android:clickable="true"
     android:foreground="@drawable/cardview_ripple"
     app:cardCornerRadius="@dimen/_16sdp"
     app:cardElevation="@dimen/_10sdp"
-    android:focusable="true">
+    android:outlineSpotShadowColor="@color/Bar"
+    android:focusable="true"
+    tools:targetApi="p">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -27,11 +29,25 @@
             app:layout_constraintHorizontal_bias="0.018"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/hacker" />
+            tools:src="@drawable/hacker"
+            android:contentDescription="@null"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:src="@drawable/ic_group_2"
+            app:guidelineUseRtl="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            android:contentDescription="@null"/>
 
         <TextView
             android:id="@+id/text"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_8sdp"
             android:layout_marginTop="36dp"
@@ -48,18 +64,19 @@
 
         <TextView
             android:id="@+id/num_text"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_8sdp"
             android:fontFamily="@font/tajawal_bold"
             android:textColor="@color/black"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.355"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/text"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/text"
             app:layout_constraintTop_toBottomOf="@+id/text"
-
             tools:text="@tools:sample/us_zipcodes" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
